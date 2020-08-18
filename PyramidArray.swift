@@ -4,7 +4,7 @@ pyramid(0) => [ ]
 pyramid(1) => [ [1] ]
 pyramid(2) => [ [1], [1, 1] ]
 pyramid(3) => [ [1], [1, 1], [1, 1, 1] ]
-/*
+*/
 
 func pyramid(_ n: Int) -> [[Int]] {
     if n == 0 {
