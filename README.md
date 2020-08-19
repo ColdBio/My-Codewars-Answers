@@ -2,3 +2,5 @@
 
 # My-Codewars-Answers
 This repository contains all the codewars questions the I completed and their respective answers. As I improve I will try to revist some of my answers and improve on them.
+
+The goal is to complete one problem as day. Hopefully 🙏
