@@ -14,7 +14,6 @@ def dont_give_me_five(start,end):
     x = list(range(start, end+1))
     temp = [str(x) for x in x]
     new = []
-    print(temp)
     for each in temp:
         if each.find('5') == -1:
             new.append(each)
