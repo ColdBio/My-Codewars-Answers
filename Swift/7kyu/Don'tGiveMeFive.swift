@@ -24,3 +24,14 @@ func dontGiveMeFive(_ start: Int, _ end: Int) -> Int {
     }
     return temp2.count
 }
+
+
+/*
+ --Better Solution--
+
+func wordSearch(_ str:String, _ arr:[String]) -> [String] {
+  let array = arr.filter { $0.lowercased().range(of: str.lowercased()) != nil }
+  return array.isEmpty ? ["Empty"] : array
+}
+
+*/
