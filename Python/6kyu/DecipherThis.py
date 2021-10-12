@@ -19,8 +19,10 @@ import re
 def decipher_this(string):
 
     arr = []
+    # Splitting the string based on where the integers are located
     for each in re.findall(r'[A-Za-z]+|\d+| ', string):
         try:
+            # Covert each int into a character
             x = chr(int(each))
             arr.append(x)
         except ValueError:
