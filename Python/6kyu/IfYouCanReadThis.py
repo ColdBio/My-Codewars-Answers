@@ -28,7 +28,6 @@ def to_nato(words):
         try:
             if each == ' ':
                 pass
-                
             arr.append(dictionary[each.upper()])
             arr.append(' ')
         except KeyError:
