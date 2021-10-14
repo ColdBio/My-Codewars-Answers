@@ -9,13 +9,14 @@ Example
 
 '''
 def solution(s):
-    final = ""
+    final = []
 
     for each in s:
         if each.isupper():
-            final += " "
-            final += each
+            final.append(" ")
+            final.append(each)
         else:
-            final += each
+            final.append(each)
 
-    return final
+    return ''.join(final)
+
