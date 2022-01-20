@@ -1,0 +1,21 @@
+'''
+Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
+
+move_zeros([1, 0, 1, 2, 0, 1, 3]) # returns [1, 1, 2, 1, 3, 0, 0]
+'''
+
+def move_zeros(array):
+    copy_array = []
+    count = 0
+
+    for each in array:
+        if each == 0:
+            count += 1
+        else: 
+            copy_array.append(each)
+
+    for each in range(0, count):
+        copy_array.append(0)
+
+    return copy_array
+
