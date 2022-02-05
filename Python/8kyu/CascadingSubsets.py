@@ -10,7 +10,7 @@ each_cons([1,2,3,4], 3)
   #=> [[1,2,3],[2,3,4]]
   
 '''
-# This definitely was should not be an 8kyu problem
+# This definitely should not been an 8kyu problem
 
 def each_cons(lst, n):
     l = 0
