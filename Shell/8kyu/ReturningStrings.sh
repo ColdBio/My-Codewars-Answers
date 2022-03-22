@@ -4,5 +4,4 @@ Make a function that will return a greeting statement that uses an input; your p
 
 [Make sure you type the exact thing I wrote or the program may not execute properly]
 '
-
 echo "Hello, $1 how are you doing today?"
